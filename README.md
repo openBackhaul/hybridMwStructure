@@ -7,19 +7,20 @@ Technology specific interface definition for a hybrid microwave structure on a p
 
 ### UML
 - Thorsten Heinze (Thorsten.Heinze@openBackhaul.com)
-- 1.1.0-tr532v1_1.180822.1354 : [180814_ONF_MW_IM_TR-532_v1_1.zip](./180814_ONF_MW_IM_TR-532_v1_1.zip)
+- 1.1.0-tr532v1_1.190204.1013 : [MwIM_1.1.0-tr532v1_1.190204.1013.zip](./MwIM_1.1.0-tr532v1_1.190204.1013.zip)
+- 1.1.0-tr532v1_1.190204.1013 = 1.1.0-tr532v1_1.180822.1354 + several GendocTemplates
 
 ### Overview 
 - Thorsten Heinze (Thorsten.Heinze@openBackhaul.com)
-- 1.1.0-tr532v1_1.180822.1354+overview.1 : [190201_HybridMwStructureCD.PNG](./190201_HybridMwStructureCD.PNG)
+- 1.1.0-tr532v1_1.190204.1013+overview.1 : [HybridMicrowaveStructurePac_1.1.0-tr532v1_1.190204.1013+overview.190204.1346.png](./HybridMicrowaveStructurePac_1.1.0-tr532v1_1.190204.1013+overview.190204.1346.png)
 
 ### List of Classes
 - Thorsten Heinze (Thorsten.Heinze@openBackhaul.com)
-- 1.1.0-tr532v1_1.180822.1354+list.1 : [
+- 1.1.0-tr532v1_1.190204.1013+list.1 : [HybridMicrowaveStructurePac_1.1.0-tr532v1_1.190204.1013+txt.190204.1430.txt](./HybridMicrowaveStructurePac_1.1.0-tr532v1_1.190204.1013+txt.190204.1430.txt)
 
 ### GenDoc Export
 - Thorsten Heinze (Thorsten.Heinze@openBackhaul.com)
-- 1.1.0-tr532v1_1.180822.1354+gendoc.1 : [
+- 1.1.0-tr532v1_1.190204.1013+gendoc.1 : [HybridMicrowaveStructurePac_1.1.0-tr532v1_1.190204.1013+gendoc.190204.1430.docx](./HybridMicrowaveStructurePac_1.1.0-tr532v1_1.190204.1013+gendoc.190204.1430.docx)
 
 ### YANG File
 - Thorsten Heinze (Thorsten.Heinze@openBackhaul.com)
@@ -34,7 +35,7 @@ Technology specific interface definition for a hybrid microwave structure on a p
 
 ### Publication
 - Thorsten Heinze (Thorsten.Heinze@openBackhaul.com)
-- to be provided
+- 1.1.0-tr532v1_1.190204.1013+tr.1 : [Tr532v1.1_1.1.0-tr532v1_1.190204.1013+tr.190204.1513.docx](./Tr532v1.1_1.1.0-tr532v1_1.190204.1013+tr.190204.1513.docx)
 
 ### Aspired Model Classification
 - Published
