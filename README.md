@@ -7,7 +7,7 @@ Technology specific interface definition for a hybrid microwave structure on a p
 
 ### UML
 - Thorsten Heinze (Thorsten.Heinze@openBackhaul.com)
-- 2.0.0-tsp.190205.1530 : [](./)
+- 2.0.0-tsp.190205.1530 : [190205 HybridMwStructurePac.zip](./190205%20HybridMwStructurePac.zip)
 
 ### Overview 
 - Thorsten Heinze (Thorsten.Heinze@openBackhaul.com)
