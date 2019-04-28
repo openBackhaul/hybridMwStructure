@@ -1,5 +1,5 @@
 # hybridMwStructure
-Technology specific amendment to the LayerProtocol class for structuring of a microwave radio interface into multiple TDM and a single Ethernet segment 
+Technology specific amendment to the LayerProtocol class for structuring a microwave radio interface into multiple TDM and a single Ethernet segment 
 
 ### [1.0.0-tr532v1.d.t](../../tree/TR532v1_0)
 - Model officially published by ONF in December 2016
@@ -10,7 +10,7 @@ Technology specific amendment to the LayerProtocol class for structuring of a mi
 - finalized and waiting for publishing
 
 ### [2.0.0-tsp.d.t](../../tree/tsp)
-- Component of TR-532
+- Disaggregated component of TR-532
 - under definition
 
 ### Open Issue List
