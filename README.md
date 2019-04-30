@@ -7,22 +7,20 @@ Technology specific interface definition for a hybrid microwave structure on a p
 
 ### UML
 - Thorsten Heinze (Thorsten.Heinze@openBackhaul.com)
-- 2.0.0-tsp.190205.1530 : [190205 HybridMwStructurePac.zip](./190205%20HybridMwStructurePac.zip)
+- [HybridMwStructure_2.0.0-tsp.190430.1925](./HybridMwStructure_2.0.0-tsp.190430.1925.zip)
 
 ### Overview 
 - Thorsten Heinze (Thorsten.Heinze@openBackhaul.com)
-- 2.0.0-tsp.190205.1530+overview.1 : [](./)
+- [HybridMwStructure_2.0.0-tsp.190430.1925+overview.1](./HybridMwStructure_2.0.0-tsp.190430.1925+overview.1.png)
 
 ### List of Classes
-- Thorsten Heinze (Thorsten.Heinze@openBackhaul.com)
-- 2.0.0-tsp.190205.1530+list.1 : [](./)
+- to be provided
 
 ### GenDoc Export
 - Thorsten Heinze (Thorsten.Heinze@openBackhaul.com)
-- 2.0.0-tsp.190205.1530+gendoc.1 : [](./)
+- [HybridMwStructure_2.0.0-tsp.190430.1925+gendoc.1](./HybridMwStructure_2.0.0-tsp.190430.1925+gendoc.1.docx)
 
 ### YANG File
-- Thorsten Heinze (Thorsten.Heinze@openBackhaul.com)
 - to be provided
 
 ### Interface Simulator
@@ -39,6 +37,7 @@ Technology specific interface definition for a hybrid microwave structure on a p
 
 ### Open Issue List
 - Thorsten Heinze (Thorsten.Heinze@openBackhaul.com)
-- [bugtracker.openBackhaul.com](https://bugtracker.openBackhaul.com)
+- [hybridMwStructure/issues](../../issues)
 
 ### Comments
+./.
