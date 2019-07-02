@@ -7,11 +7,11 @@ Technology specific interface definition for a hybrid microwave structure on a p
 
 ### UML
 - Thorsten Heinze (Thorsten.Heinze@openBackhaul.com)
-- [HybridMwStructure_2.0.0-tsp.190430.1925](./HybridMwStructure_2.0.0-tsp.190430.1925.zip)
+- [HybridMwStructure_2.0.0-tsp.190702.1715](./HybridMwStructure_2.0.0-tsp.190702.1715.zip)
 
 ### Overview 
 - Thorsten Heinze (Thorsten.Heinze@openBackhaul.com)
-- [HybridMwStructure_2.0.0-tsp.190430.1925+overview.1](./HybridMwStructure_2.0.0-tsp.190430.1925+overview.1.png)
+- [HybridMwStructure_2.0.0-tsp.190702.1715+overview.1](./HybridMwStructure_2.0.0-tsp.190702.1715+overview.1.png)
 
 ### List of Classes
 - Waseem Sattar (Waseem.Sattar@openBackhaul.com)
@@ -19,10 +19,14 @@ Technology specific interface definition for a hybrid microwave structure on a p
 
 ### GenDoc Export
 - Thorsten Heinze (Thorsten.Heinze@openBackhaul.com)
-- [HybridMwStructure_2.0.0-tsp.190430.1925+gendoc.1](./HybridMwStructure_2.0.0-tsp.190430.1925+gendoc.1.docx)
+- [HybridMwStructure_2.0.0-tsp.190702.1715+gendoc.1](./HybridMwStructure_2.0.0-tsp.190702.1715+gendoc.1.docx)
 
 ### Augmentation Condition
 - When statement in Augmentation statement demands for LayerProtocol::layerProtocolName==HYBRID_MW_STRUCTURE
+
+### YANG Header
+- Thorsten Heinze (Thorsten.Heinze@openBackhaul.com)
+- to be provided
 
 ### YANG File
 - to be provided
