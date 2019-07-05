@@ -22,7 +22,7 @@ Technology specific interface definition for a hybrid microwave structure on a p
 - [HybridMwStructure_2.0.0-tsp.190702.1715+gendoc.1](./HybridMwStructure_2.0.0-tsp.190702.1715+gendoc.1.docx)
 
 ### Augmentation Condition
-- When statement in Augmentation statement demands for LayerProtocol::layerProtocolName==HYBRID_MW_STRUCTURE
+- When statement in Augmentation statement demands for LayerProtocol::layerProtocolName==LAYER_PROTOCOL_NAME_HYBRID_MW_STRUCTURE_LAYER
 
 ### YANG File
 - to be provided
