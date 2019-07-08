@@ -7,11 +7,11 @@ Technology specific interface definition for a hybrid microwave structure on a p
 
 ### UML
 - Thorsten Heinze (Thorsten.Heinze@openBackhaul.com)
-- [HybridMwStructure_2.0.0-tsp.190708.1210](./HybridMwStructure_2.0.0-tsp.190708.1210.zip)
+- [HybridMwStructure_2.0.0-tsp.190708.1400](./HybridMwStructure_2.0.0-tsp.190708.1400.zip)
 
 ### Overview 
 - Thorsten Heinze (Thorsten.Heinze@openBackhaul.com)
-- [HybridMwStructure_2.0.0-tsp.190708.1210+overview.1](./HybridMwStructure_2.0.0-tsp.190708.1210+overview.1.png)
+- [HybridMwStructure_2.0.0-tsp.190708.1400+overview.1](./HybridMwStructure_2.0.0-tsp.190708.1400+overview.1.png)
 
 ### List of Classes
 - Waseem Sattar (Waseem.Sattar@openBackhaul.com)
@@ -19,7 +19,7 @@ Technology specific interface definition for a hybrid microwave structure on a p
 
 ### GenDoc Export
 - Thorsten Heinze (Thorsten.Heinze@openBackhaul.com)
-- [HybridMwStructure_2.0.0-tsp.190708.1210+gendoc.1](./HybridMwStructure_2.0.0-tsp.190708.1210+gendoc.1.docx)
+- [HybridMwStructure_2.0.0-tsp.190708.1400+gendoc.1](./HybridMwStructure_2.0.0-tsp.190708.1400+gendoc.1.docx)
 
 ### Augmentation Condition
 - When statement in Augmentation statement demands for LayerProtocol::layerProtocolName==LAYER_PROTOCOL_NAME_HYBRID_MW_STRUCTURE_LAYER
