@@ -25,7 +25,8 @@ Technology specific interface definition for a hybrid microwave structure on a p
 - When statement in Augmentation statement demands for LayerProtocol::layerProtocolName==LAYER_PROTOCOL_NAME_HYBRID_MW_STRUCTURE_LAYER
 
 ### YANG File
-- to be provided
+- Martin Skorupski (Martin.Skorupski@openBackhaul.com)
+- [HybridMwStructure_2.0.0-tsp.190708.1400+yang.1](./HybridMwStructure_2.0.0-tsp.190708.1400+yang.1.zip)
 
 ### Interface Simulator
 - to be provided
