@@ -26,8 +26,8 @@ Technology specific interface definition for a hybrid microwave structure on a p
 
 ### YANG File
 - Martin Skorupski (Martin.Skorupski@openBackhaul.com)
-- [HybridMwStructure_2.0.0-tsp.190708.1400+yang.3](./HybridMwStructure_2.0.0-tsp.190708.1400+yang.3.zip)
-- Please, see [issue#10](../../issues/10) for information on the latest change
+- [HybridMwStructure_2.0.0-tsp.190708.1400+yang.4](./HybridMwStructure_2.0.0-tsp.190708.1400+yang.4.zip)
+- Please, see [issue#10](../../issues/10) and [issue#11](../../issues/11) for information on the latest change
 
 ### Interface Simulator
 - to be provided
