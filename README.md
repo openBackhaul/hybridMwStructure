@@ -27,7 +27,7 @@ Technology specific interface definition for a hybrid microwave structure on a p
 - to be provided
 
 ### Interface Validator
-- [HybridMwStructure_2.0.0-tsp.191123.1110+validator.1](./HybridMwStructure_2.0.0-tsp.191123.1110+validator.1.zip)
+- [HybridMwStructure_2.0.0-tsp.191123.1110+validator.2](./HybridMwStructure_2.0.0-tsp.191123.1110+validator.2.zip)
 
 ### Publication
 - Candidate for ONF TR-532 v2.0 
