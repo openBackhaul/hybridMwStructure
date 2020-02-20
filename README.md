@@ -22,7 +22,7 @@ Technology specific interface definition for a hybrid microwave structure on a p
 
 ### YANG File
 - [HybridMwStructure_2.0.0-tsp.191123.1110+yang.1](./HybridMwStructure_2.0.0-tsp.191123.1110+yang.1.zip)
-- Intermediate Update: [HybridMwStructure_2.0.0-tsp.200122.1300+yang.1](./HybridMwStructure_2.0.0-tsp.200122.1300+yang.1.zip)
+- Intermediate Update: [HybridMwStructure_2.0.0-tsp.200122.1300+yang.2](./HybridMwStructure_2.0.0-tsp.200122.1300+yang.2.zip)
 
 ### JSON Schema
 - 
