@@ -7,17 +7,17 @@ Technology specific interface definition for a hybrid microwave structure on a p
 
 ### UML
 - [HybridMwStructure_2.0.0-tsp.191123.1110](./HybridMwStructure_2.0.0-tsp.191123.1110.zip) (deprecated)
-- Intermediate Update: [HybridMwStructure_2.0.0-tsp.200122.1300](./HybridMwStructure_2.0.0-tsp.200122.1300.zip) (deprecated)
+- [HybridMwStructure_2.0.0-tsp.200122.1300](./HybridMwStructure_2.0.0-tsp.200122.1300.zip) (deprecated)
 - [HybridMwStructure_2.0.0-tsp.220315.1810](./HybridMwStructure_2.0.0-tsp.220315.1810.zip)
 
 ### Overview 
 - [HybridMwStructure_2.0.0-tsp.191123.1110+overview.1](./HybridMwStructure_2.0.0-tsp.191123.1110+overview.1.png) (deprecated)
-- Intermediate Update: [HybridMwStructure_2.0.0-tsp.200122.1300+overview.1](./HybridMwStructure_2.0.0-tsp.200122.1300+overview.1.png) (deprecated)
+- [HybridMwStructure_2.0.0-tsp.200122.1300+overview.1](./HybridMwStructure_2.0.0-tsp.200122.1300+overview.1.png) (deprecated)
 - [HybridMwStructure_2.0.0-tsp.220315.1810+overview.1](./HybridMwStructure_2.0.0-tsp.220315.1810+overview.1.png)
 
 ### GenDoc Export
 - [HybridMwStructure_2.0.0-tsp.191123.1110+gendoc.1](./HybridMwStructure_2.0.0-tsp.191123.1110+gendoc.1.docx) (deprecated)
-- Intermediate Update: [HybridMwStructure_2.0.0-tsp.200122.1300+gendoc.1](./HybridMwStructure_2.0.0-tsp.200122.1300+gendoc.1.docx) (deprecated)
+- [HybridMwStructure_2.0.0-tsp.200122.1300+gendoc.1](./HybridMwStructure_2.0.0-tsp.200122.1300+gendoc.1.docx) (deprecated)
 - [HybridMwStructure_2.0.0-tsp.220315.1810+gendoc.1](./HybridMwStructure_2.0.0-tsp.220315.1810+gendoc.1.docx)
 
 ### Augmentation Condition
@@ -25,7 +25,8 @@ Technology specific interface definition for a hybrid microwave structure on a p
 
 ### YANG File
 - [HybridMwStructure_2.0.0-tsp.191123.1110+yang.1](./HybridMwStructure_2.0.0-tsp.191123.1110+yang.1.zip) (deprecated)
-- Intermediate Update: [HybridMwStructure_2.0.0-tsp.200122.1300+yang.3](./HybridMwStructure_2.0.0-tsp.200122.1300+yang.3.zip) (deprecated)
+- [HybridMwStructure_2.0.0-tsp.200122.1300+yang.3](./HybridMwStructure_2.0.0-tsp.200122.1300+yang.3.zip) (deprecated)
+- [HybridMwStructure_2.0.0-tsp.220315.1810+yang.1](./HybridMwStructure_2.0.0-tsp.220315.1810+yang.1.zip)
 
 ### JSON Schema
 - 
