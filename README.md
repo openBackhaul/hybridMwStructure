@@ -2,7 +2,7 @@
 Technology specific interface definition for a hybrid microwave structure on a physical media 
 
 ### Branch
-- 2.0.0-tsp.d.t : Model for the Transport SDN Pilot at Telefonica Germany
+- 2.0.0-tsi.d.t : Model for the Transport SDN Pilot at Telefonica Germany
 
 ### UML
 - [HybridMwStructure_2.0.0-tsi.240103.1130](./HybridMwStructure_2.0.0-tsi.240103.1130.zip)
