@@ -1,0 +1,292 @@
+hybrid-mw-structure-2-0:hybrid-mw-structure-capability:
+  type: object
+  required:
+    - hybrid-mw-structure-2-0:hybrid-mw-structure-capability
+  properties:
+    hybrid-mw-structure-2-0:hybrid-mw-structure-capability:
+      type: object
+      required:
+        - supported-tdm-structure-kind-list
+        - performance-monitoring-is-avail
+      properties:
+        supported-tdm-structure-kind-list:
+          type: array
+          minItems: 1
+          x-key: tdm-structure-name
+          items:
+            type: object
+            properties:
+              tdm-structure-name:
+                type: string
+                enum:
+                  - 'e1'
+                  - 't1'
+                  - 'j1'
+                  - 'e3'
+                  - 'ds3'
+                  - 'stm1'
+                  - 'cpri1'
+                  - 'cpri2'
+                  - 'cpri3'
+                  - 'cpri4'
+                  - 'cpri5'
+                  - 'cpri6'
+                  - 'cpri7'
+              tdm-segment-size:
+                type: integer
+                format: int32
+              max-number-of-segments-reservable:
+                type: integer
+                format: int8
+        performance-monitoring-is-avail:
+          type: boolean
+hybrid-mw-structure-2-0:hybrid-mw-structure-configuration:
+  type: object
+  required:
+    - hybrid-mw-structure-2-0:hybrid-mw-structure-configuration
+  properties:
+    hybrid-mw-structure-2-0:hybrid-mw-structure-configuration:
+      type: object
+      required:
+        - tdm-structure-kind
+        - number-of-tdm-segments-to-be-reserved
+        - performance-monitoring-is-on
+      properties:
+        tdm-structure-kind:
+          type: string
+        number-of-tdm-segments-to-be-reserved:
+          type: integer
+          format: int8
+        g-826-threshold-cross-alarm-list:
+          type: array
+          minItems: 0
+          x-key: g-826-value-kind granularity-period
+          items:
+            type: object
+            required:
+              - g-826-value-kind
+              - alarm-raising-threshold
+              - alarm-clearing-threshold
+              - granularity-period
+            properties:
+              g-826-value-kind:
+                type: string
+                enum:
+                  - 'hybrid-mw-structure-2-0:G_826_TYPE_ES'
+                  - 'hybrid-mw-structure-2-0:G_826_TYPE_SES'
+                  - 'hybrid-mw-structure-2-0:G_826_TYPE_CSES'
+                  - 'hybrid-mw-structure-2-0:G_826_TYPE_UAS'
+                  - 'hybrid-mw-structure-2-0:G_826_TYPE_NOT_SPECIFIED'
+              alarm-raising-threshold:
+                type: integer
+                format: int32
+              alarm-clearing-threshold:
+                type: integer
+                format: int32
+              granularity-period:
+                type: string
+                enum:
+                  - 'hybrid-mw-structure-2-0:GRANULARITY_PERIOD_TYPE_UNKNOWN'
+                  - 'hybrid-mw-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN'
+                  - 'hybrid-mw-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-24-HOURS'
+                  - 'hybrid-mw-structure-2-0:GRANULARITY_PERIOD_TYPE_NOT_YET_DEFINED'
+        performance-monitoring-is-on:
+          type: boolean
+hybrid-mw-structure-2-0:hybrid-mw-structure-status:
+  type: object
+  required:
+    - hybrid-mw-structure-2-0:hybrid-mw-structure-status
+  properties:
+    hybrid-mw-structure-2-0:hybrid-mw-structure-status:
+      type: object
+      required:
+        - segment-status-list
+        - performance-monitoring-is-up
+      properties:
+        segment-status-list:
+          type: array
+          minItems: 1
+          x-key: segment-status-type-id
+          items:
+            type: object
+            required:
+              - segment-status-type-id
+              - segment-is-reserved-for-tdm
+              - operational-status
+            properties:
+              segment-status-type-id:
+                type: integer
+                format: int16
+              segment-is-reserved-for-tdm:
+                type: boolean
+              operational-status:
+                type: string
+                enum:
+                  - 'hybrid-mw-structure-2-0:OPERATIONAL_STATE_TYPE_ENABLED'
+                  - 'hybrid-mw-structure-2-0:OPERATIONAL_STATE_TYPE_DISABLED'
+                  - 'hybrid-mw-structure-2-0:OPERATIONAL_STATE_TYPE_NOT_YET_DEFINED'
+        performance-monitoring-is-up:
+          type: boolean
+          description: true = Performance values are currently collected and aggregated.
+hybrid-mw-structure-2-0:hybrid-mw-structure-current-performance:
+  type: object
+  required:
+    - hybrid-mw-structure-2-0:hybrid-mw-structure-current-performance
+  properties:
+    hybrid-mw-structure-2-0:hybrid-mw-structure-current-performance:
+      type: object
+      required:
+        - current-performance-data-list
+        - number-of-current-performance-sets
+      properties:
+        number-of-current-performance-sets:
+          type: integer
+          format: int8
+        current-performance-data-list:
+          type: array
+          minItems: 1
+          maxItems: 2
+          x-key: granularity-period
+          items:
+            type: object
+            required:
+              - timestamp
+              - suspect-interval-flag
+              - elapsed-time
+              - scanner-id
+              - granularity-period
+              - performance-data
+            properties:
+              timestamp:
+                type: string
+                pattern: '^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d+)?(Z|[\+\-]\d{2}:\d{2})$'
+              suspect-interval-flag:
+                type: boolean
+              elapsed-time:
+                type: string
+              scanner-id:
+                type: string
+              granularity-period:
+                type: string
+                enum:
+                  - 'hybrid-mw-structure-2-0:GRANULARITY_PERIOD_TYPE_UNKNOWN'
+                  - 'hybrid-mw-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN'
+                  - 'hybrid-mw-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-24-HOURS'
+                  - 'hybrid-mw-structure-2-0:GRANULARITY_PERIOD_TYPE_NOT_YET_DEFINED'
+              performance-data:
+                type: object
+                required:
+                  - time-period
+                  - es
+                  - ses
+                  - cses
+                  - unavailability
+                  - rx-level-min
+                  - rx-level-max
+                  - rx-level-avg
+                properties:
+                  time-period:
+                    type: integer
+                    format: int32
+                  es:
+                    type: integer
+                    format: int32
+                  ses:
+                    type: integer
+                    format: int32
+                  cses:
+                    type: integer
+                    format: int32
+                  unavailability:
+                    type: integer
+                    format: int32
+                  rx-level-min:
+                    type: integer
+                    format: int8
+                  rx-level-max:
+                    type: integer
+                    format: int8
+                  rx-level-avg:
+                    type: integer
+                    format: int8
+hybrid-mw-structure-2-0:hybrid-mw-structure-historical-performances:
+  type: object
+  required:
+    - hybrid-mw-structure-2-0:hybrid-mw-structure-historical-performances
+  properties:
+    hybrid-mw-structure-2-0:hybrid-mw-structure-historical-performances:
+      type: object
+      required:
+        - number-of-historical-performance-sets
+        - time-of-latest-change
+      properties:
+        number-of-historical-performance-sets:
+          type: integer
+          format: int16
+        time-of-latest-change:
+          type: string
+          pattern: '^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d+)?(Z|[\+\-]\d{2}:\d{2})$'
+        historical-performance-data-list:
+          type: array
+          minItems: 0
+          x-key: granularity-period period-end-time
+          items:
+            type: object
+            required:
+              - suspect-interval-flag
+              - history-data-id
+              - granularity-period
+              - period-end-time
+              - performance-data
+            properties:
+              suspect-interval-flag:
+                type: boolean
+              history-data-id:
+                type: string
+              granularity-period:
+                type: string
+                enum:
+                  - 'hybrid-mw-structure-2-0:GRANULARITY_PERIOD_TYPE_UNKNOWN'
+                  - 'hybrid-mw-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN'
+                  - 'hybrid-mw-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-24-HOURS'
+                  - 'hybrid-mw-structure-2-0:GRANULARITY_PERIOD_TYPE_NOT_YET_DEFINED'
+              period-end-time:
+                type: string
+                pattern: '^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d+)?(Z|[\+\-]\d{2}:\d{2})$'
+              performance-data:
+                type: object
+                required:
+                  - time-period
+                  - es
+                  - ses
+                  - cses
+                  - unavailability
+                  - rx-level-min
+                  - rx-level-max
+                  - rx-level-avg
+                properties:
+                  time-period:
+                    type: integer
+                    format: int32
+                  es:
+                    type: integer
+                    format: int32
+                  ses:
+                    type: integer
+                    format: int32
+                  cses:
+                    type: integer
+                    format: int32
+                  unavailability:
+                    type: integer
+                    format: int32
+                  rx-level-min:
+                    type: integer
+                    format: int8
+                  rx-level-max:
+                    type: integer
+                    format: int8
+                  rx-level-avg:
+                    type: integer
+                    format: int8
+hybrid-mw-structure-2-0:clear-threshold-cross-alarms:

@@ -17,22 +17,22 @@ Technology specific interface definition for a hybrid microwave structure on a p
 - When statement in Augmentation statement demands for LayerProtocol::layerProtocolName==LAYER_PROTOCOL_NAME_TYPE_HYBRID_MW_STRUCTURE_LAYER
 
 ### YANG File
-- [HybridMwStructure_2.0.0-tsi.240103.1130+yang.1](./HybridMwStructure_2.0.0-tsi.240103.1130+yang.1.zip)
+- [HybridMwStructure_2.0.0-tsi.240103.1130+yang.1](./HMS_2.0.0-tsi.240103.1130+yang/hybrid-mw-structure-2-0.yang)
 
-### JSON Schema
-- to be provided
+### Schema
+- [HybridMwStructure_2.0.0-tsi.240103.1130+schema](./HMS_2.0.0-tsi.240103.1130+schema/)
 
 ### Interface Simulator
-- to be provided
+- [HybridMwStructure_2.0.0-tsi.240103.1130+simulator](./HMS_2.0.0-tsi.240103.1130+simu/)
 
 ### Interface Validator
-- [HybridMwStructure_2.0.0-tsi.240103.1130+validator.1](./HybridMwStructure_2.0.0-tsi.240103.1130+validator.1.zip)
+- [HybridMwStructure_2.0.0-tsi.240103.1130+validator](./HMS_2.0.0-tsi.240103.1130+vali/)
 
 ### Publication
-- Candidate for ONF TR-532 v2.0 
+- Published as a part of ONF TR-532 v2.0  
 
-### Aspired Model Classification
-- Live Network
+### Model Classification
+- Operational in Live Network
 
 ### Open Issue List
 - [hybridMwStructure/issues](../../issues)
